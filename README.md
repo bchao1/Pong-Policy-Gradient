@@ -1,4 +1,5 @@
 # Policy Gradient: Pong
+![Rewards](./results/play.gif)
 ## Settings
 ### Preprocessing
 The frames (orignially of size 210 * 160) are converted to grayscale then directly resized to 80 * 80. The differential frame (current frame - previous frame) is flattened to a one-dimensional vector of length 6400 and fed into the actor network.
@@ -20,10 +21,7 @@ The dimension of the action space of the gym-Pong environment is 3 (up, down, do
 - Gradient is accumulated every 10 episodes and then used to upadate the network to stabilize training process.
 - Rewards are discounted with factor 0.99, and then normalized (substracted by their mean and then divided by their standard deviation).
 ### Results
-- Reward over time (trained for 8305 episodes)
 
 ![Rewards](./results/reward.png)
 
-- Actor playing pong
-![Rewards](./results/play.gif)
 
