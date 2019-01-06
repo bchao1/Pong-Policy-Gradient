@@ -1,5 +1,10 @@
 # Policy Gradient: Pong
-![Rewards](./results/play.gif)
+
+The green pad is our actor, and it achieves an average reward over 30 episodes of 12.1.
+||||||
+|---|---|---|---|---|
+|![Game 1](./results/videos/play1.gif)|![Game 2](./results/videos/play2.gif)|![Game 3](./results/videos/play3.gif)|![Game 4](./results/videos/play4.gif)|![Game 5](./results/videos/play5.gif)|
+
 ## Settings
 ### Preprocessing
 The frames (orignially of size 210 * 160) are converted to grayscale then directly resized to 80 * 80. The differential frame (current frame - previous frame) is flattened to a one-dimensional vector of length 6400 and fed into the actor network.
@@ -25,5 +30,3 @@ The dimension of the action space of the gym-Pong environment is 3 (up, down, do
 The model is trained for 46 hours, achieving an average reward over 30 episodes of 12.1
 
 ![Rewards](./results/reward.png)
-
-
