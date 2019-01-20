@@ -28,6 +28,6 @@ The dimension of the action space of the gym-Pong environment is 3 (up, down, do
 - Rewards are discounted with factor 0.99, and then normalized (substracted by their mean and then divided by their standard deviation).
 ### Results
 
-The model is trained for 46 hours, achieving an average reward over 30 episodes of 12.1
+The model is trained for 46 hours, achieving an average reward over 30 episodes of 13.1
 
 ![Rewards](./results/reward.png)
