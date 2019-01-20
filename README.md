@@ -1,6 +1,6 @@
 # Policy Gradient: Pong
 
-The green pad is our actor, and it achieves an average reward over 30 episodes of 12.1.
+The green pad is our actor, and it achieves an average reward over 30 episodes of 13.1.
 
 ||||||
 |---|---|---|---|---|
